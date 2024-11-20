@@ -8,4 +8,4 @@ On the 'draw_clock_face' function: it creates the clocks circular face with the 
 It also rendered and positioned at the calculated coordinates.
 On the 'draw_hand' function: it is based on the length, angle, width and color. the end position of the hand uses trigonometric functions and a line is drawn at the center of the clock to this position
 On the 'draw_clock' function: it retrieves the current time using 'date time'. Also it calculates the angle for the minute and second hands taking into account of the current seconds and minutes.
-It calls the 'draw_clock_face()' to draw the clock face and then draws the minute and second hands using the 'draw_hand' function
+It calls the 'draw_clock_face()' to draw the clock face and then draws the minute and second hands using the 'draw_hand' function.
