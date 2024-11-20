@@ -1,2 +1,3 @@
 Code Explanation: 
-It begins by importing the necessary libraries 'Pygame' for graphics and math since it needs the dimensions and nec
+It begins by importing the necessary libraries 'Pygame' for graphics and math since it mathematical functions and 'datetime' to retrieve the current time in the system.
+Next is constants which is 
