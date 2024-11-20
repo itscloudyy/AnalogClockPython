@@ -52,32 +52,6 @@ def draw_clock():
     draw_clock_face()
 
     # Draw hands with updated lengths
-    draw_hand(RADIUS * 0.6, math.radians(hours * 30), 8, BLACK)  # Smaller hour hand
     draw_hand(RADIUS * 0.8, math.radians(minutes * 6), 6, BLACK)  # Minute hand
     draw_hand(RADIUS * 0.7, math.radians(seconds * 6), 4, BLACK)  # Second hand
 
-def main():
-    clock = pygame.time.Clock()
-    running = True
-
-    while running:
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                running = False
-
-        # Clear the screen
-        screen.fill(GRAY)
-
-        # Draw the clock
-        draw_clock()
-
-        # Update the display
-        pygame.display.flip()
-
-        # Cap the frame rate
-        clock.tick(FPS)
-
-    pygame.quit()
-
-if __name__ == "__main__":
-    main()
