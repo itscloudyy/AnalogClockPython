@@ -1,6 +1,6 @@
 Code Explanation: 
 It begins by importing the necessary libraries 'Pygame' for graphics and math since it mathematical functions and 'datetime' to retrieve the current time in the system.
-Next is constants which is the height, width, display and radius of the clock face. Also the frames per second for the loop.
+Next is constants which is the height, width, display and radius of the clock face. Also the frames per second for the loops.
 Colors : these values deifined using RGB tuples to specify the clock's graphics
 Display: the display window is specified by the height and with followed with a caption on the title window
 Font: the font is loaded for rendering the hours of the clock face
