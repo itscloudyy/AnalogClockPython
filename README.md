@@ -1,3 +1,6 @@
+Python Analog clock: Serves real time reflection based on the datetime of a certain location. This will synchronize every time this code will run.
+
+
 Code Explanation: 
 It begins by importing the necessary libraries 'Pygame' for graphics and math since it mathematical functions and 'datetime' to retrieve the current time in the system.
 Next is constants which is the height, width, display and radius of the clock face. Also the frames per second for the loops.
